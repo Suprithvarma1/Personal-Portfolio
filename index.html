@@ -9,16 +9,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-    <title>Personal-Portfolio</title>
+    
+<link rel="apple-touch-icon" sizes="180x180" href="icons\apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons\favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons\favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+
+    <title>Suprith Brahmarauthu</title>
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <header>
-
-        <nav class="navbar">
-             <a href="">HOME</a>
-             <a href="">ABOUT</a>
-             <a href="">SKILLS</a>
-             <a href="">CONTACT</a>
+           <nav class="navbar">
+            
+             <a href="">Home</a>
+             <a href="#aboutsection">About</a>
+             <a href="#skillsection">Skills</a>
+             <a href="#contactsection">Contact</a>
        </nav>
     </header>
 
@@ -31,7 +39,7 @@
          
 
 
-         <div class="hello">
+         <div class="hello" id="aboutsection">
             <h3>
                 HELLO
             </h3>
@@ -53,8 +61,8 @@
 </div>
 <
 
-<h1 class="skills">SKILLS</h1>
-<div class="skillsection">
+<h1 class="skills" id="skillsection">SKILLS</h1>
+<div class="skill-container">
 <div class="python skill-design">
 
     <img src="icons\python-logo-png-image.png" alt="python" class="icons">
@@ -84,6 +92,7 @@
 </div>
 
 </div>
+
     </main>
     
 
@@ -92,31 +101,56 @@
 
     <footer>
 
+
+        <div class="contact" id="contactsection">
+
+            <div class="info">
+
+                <h2>Get In Touch </h2>
+                <p>I am confident That I will be an asset to your organization.
+                    
+                    I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set as continuing to learn new languages and development techniques that are important to me as well as the success of your organization.</p>
+                    
+
+                </div>
+        <div class="contactinfo">
+          <a href="mailto:suprithvarma1@gmail.com" >
+            <button>Contact Me</button>
+          </a> 
+            
+           
+            
+        </div>
+    </div>
+
 <div class="social-buttons">
 
     <a href="" class="social-button social-button--facebook " aria-label="Facebook">
         <i class="fa-brands fa-facebook-f"></i>
     </a>
 
-    <a href="" class="social-button social-button--instagram" aria-label="Instagram">
+    <a href="https://www.instagram.com/suprith_varma/" class="social-button social-button--instagram" aria-label="Instagram">
         <i class="fa-brands fa-instagram"></i>
     </a>
     
-    <a href="" class="social-button social-button--linkedin" aria-label="LinkedIn">
+    <a href="https://www.linkedin.com/in/suprith-brahmarauthu-355289141/" class="social-button social-button--linkedin" aria-label="LinkedIn">
         <i class="fa-brands fa-linkedin-in"></i>
     </a>
 
-    <a href="" class="social-button social-button--github " aria-label="GitHub">
+    <a href="https://github.com/Suprithvarma1" class="social-button social-button--github " aria-label="GitHub">
         <i class="fa-brands fa-github"></i>
     </a>
 
-    <a href="" class="social-button social-button--mail " aria-label="Mail">
+    <a href="mailto:suprithvarma1@gmail.com" class="social-button social-button--mail " aria-label="Mail">
         <i class="fa-regular fa-envelope"></i>
     </a>
 
     
 </div>
-
+<br>
+<p class="copyright">
+     &copy; 2023 Suprith Brahmarauthu.
+</p>
     </footer>
 </body>
 </html>
