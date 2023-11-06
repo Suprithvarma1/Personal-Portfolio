@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+background-color: rebeccapurple;
+height: 80px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    padding: 28px;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.prf-name {
+    font-family: 'Sacramento', cursive;
+    color: rgb(86, 71, 102);
+    line-height:3;
+    font-size: 2.2rem;
+    text-align: center;
+   
+}
+h3{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    line-height: 2;
+    color:  rgb(104, 99, 110);
+    border: black;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+
+    
+}
+
+.hello{
+    margin: 25px;
+    border:2px solid black;
+}
+img{
+     height: 350px;
+     float: right;
+     padding-right: 15px;
+
+    
+}
+
+.profile-section{
+
+    
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.img-section{
+    
+    width: 50%;
+    
+
+   ! border: 2px solid black;
+    
+  
+}
+.prf-summary{
+  !  border: 2px solid red;
+    margin-top: 100px;
+   
+    width:50%;
+    padding-right: 170px;
+    padding-left: 25px;
+    
+    font-style: oblique;
+    line-height: 1.5;
+ text-align: left;
+    font-size: 20px;
+    
+
+}
+
+hr{
+    border-top-style: dotted;
+  border-width: 4px;
+  width: 34px;
+  border-top-color: rgb(19, 18, 18);
+  padding-bottom: 5px;
+}
+.skills{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    line-height: 2;
+    color:  rgb(104, 99, 110);
+}
+.skillsection{
+    border: 2px solid black;
+    margin:25px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    
+}
+.skill-design{
+    text-align: center;
+    border: 2px solid black;
+    margin: 15px;
+    
+    
+}
+.icons{
+height: 120px;
+}
+.python{
+    
+    
+}
+
+.java{
+
+}
+.html{
+  
+
+}
+.css{
+    
+  
+}
+.sql{
+ 
+}
+
+.social-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+footer{
+background-color: rgb(104, 99, 110)
+}
+.social-button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    border-radius: 100%;
+    background: white;
+    text-align: center;
+}
+.social-button::after{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    display: block;
+    width: 0px;
+    height:0px;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+.social-button:focus,.social-button:hover{
+    color: #fff
+}
+
+.social-button:focus::after,.social-button:hover::after{
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    margin-left: calc(-50% - 1px);
+}
+.social-button i ,.social-button svg{
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+}
+.social-button i {
+    font-size: 25.6px;
+}
+.social-button svg{
+    height: 40%;
+    width: 40%;
+}
+.social-button--mail{
+    color: #0072c6;
+}
+.social-button--mail::after{
+    background-color: #0072c6;
+}
+.social-button--facebook{
+    color: #3b5999;
+}
+.social-button--facebook::after{
+    background-color: #3b5999;
+}
+.social-button--linkedin{
+    color: #0077b5;
+}
+.social-button--linkedin::after{
+    background-color: #0077b5;
+}
+.social-button--github{
+    color: #6e5494;
+}
+.social-button--github::after{
+ background-color:  #6e5494;
+}
+.social-button--instagram{
+    color: #e4405f;
+}
+.social-button--instagram::after{
+ background: #e4405f;
+}
